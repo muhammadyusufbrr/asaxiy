@@ -1,0 +1,49 @@
+.faq {
+  background: url(../../assets/image/Rectangle.png) no-repeat;
+  background-size: 100%;
+  padding: 210px 0 100px;
+  &__top-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__center-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 35px 0 60px;
+  }
+  &__bottom-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 9px;
+  }
+  @media (max-width: 1125px) {
+    padding: 112px 0 60px;
+  }
+  @media (max-width: 900px) {
+    padding: 80px 0 40px;
+    &__center-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 25px 0 30px;
+    }
+  }
+  @media (max-width: 750px) {
+    background: #f2f5ff;
+    padding: 60px 0 50px;
+    &__center-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 25px 0 30px;
+    }
+  }
+}
